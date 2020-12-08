@@ -27,7 +27,7 @@
 }
 
 .LottoBoard-btn {
-  background-color: blue;
+  background-color: darkblue;
   color: white;
   border-radius: 12px;
   border: outline;
@@ -47,7 +47,7 @@
 
 .LottoBoard-btn:active {
   background-color: white;
-  color: blue;
+  color: darkblue;
 }
 
 .LottoBoard-text {
