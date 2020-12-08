@@ -1,0 +1,56 @@
+.LottoBoard {
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  width: 40%;
+  border: solid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 0 100px;
+  box-shadow: 3px 3px 10px 2px;
+}
+
+.LottoBoard:hover {
+  outline: none;
+  box-shadow: 0px 0px 10px 0px;
+}
+.LottoBoard-ball {
+  margin: 5px 10px;
+  display:flex;
+  flex-wrap: wrap;
+  /* align-items: flex-end; */
+  /* align-content: flex-start; */
+  justify-content: center;
+  /* border: solid;  */
+}
+
+.LottoBoard-btn {
+  background-color: blue;
+  color: white;
+  border-radius: 12px;
+  border: outline;
+  font-size: 20px;
+  min-width: max-content;
+  min-height: 20px;
+  margin: 7px 7px;
+}
+
+.LottoBoard-btn:hover {
+  cursor: pointer;
+}
+
+.LottoBoard-btn:focus {
+  outline: none;
+}
+
+.LottoBoard-btn:active {
+  background-color: white;
+  color: blue;
+}
+
+.LottoBoard-text {
+  font-size: larger;
+  font-weight: bolder;
+}
